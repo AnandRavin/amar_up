@@ -1,0 +1,14 @@
+use cypherx_database;
+
+######################Seed data for config_Info Table:
+
+insert into config_info(config_key,config_value)VALUES('walletFile','D://CYPHERX//Ethereumkeystore//');
+
+######################Seed data for Bitcoin_Config_Info_Table:
+
+insert into bitcoin_config_info(config_key,config_value)VALUES('walletFile','D://CYPHERX//Bitcoinkeystore//');
+
+
+###################Seed data for QRcode:
+
+insert into qr_code(qrkey, qrcode_value)VALUES('QRkey', 'D://CYPHERX//QRCode//');
